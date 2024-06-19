@@ -1,0 +1,171 @@
+@media (min-width:320px) and (max-width:620px){
+.cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecera img{
+    width: 75%;
+}
+
+
+.inici{
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 1px; 
+}
+
+.text-inici{
+    width: 100%;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+
+input[type=email]{
+    width:100%;
+
+}
+
+
+.boton1{
+    order: 3;
+    text-align: center;
+    margin: 0 auto;
+    width: 190px;
+    height: 42px;
+}
+
+
+.politica{
+    order:2;
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+
+.arti-acti{
+    display: flex;
+width: 180px;
+padding: 40px 0px;
+flex-direction: column;
+align-items: center;
+gap: 20px; 
+}
+
+
+
+/*slider */
+.invitados{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x:scroll ;
+    scroll-snap-type: x mandatory;
+    justify-content: start;
+}
+
+.invitado{
+    scroll-snap-align: center;
+    
+    
+}
+
+.modal{
+    display: none;
+}
+/*fin slider*/
+
+
+
+
+.series{
+    display: none;
+}
+
+
+
+
+/* seccion info */
+.espais{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.subtitol{
+    text-align: center;
+}
+    
+address{
+    text-align: center;
+}
+
+.campo-formulario2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.politica2{
+    order:2;
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+.boton3{
+    order: 3;
+    text-align: center;
+    margin: 0 auto;
+    width: 190px;
+    height: 42px;
+    margin-left:50px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.primera{
+    flex-wrap: wrap;
+}
+
+.movil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.segunda{
+display: grid;
+width: 100vw;
+grid-template-columns: 50% 50%;
+margin: 0 auto;
+}
+
+.tercera{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.mapa img{
+    width:100%;
+}
+}
+
+

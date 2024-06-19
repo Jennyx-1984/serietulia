@@ -1,0 +1,75 @@
+[
+    {
+"id":"1",
+"img":{
+    "src":"img/phoebe-waller-bridge@3x.png",
+    "srcset":"img/phoebe-waller-bridge.jpg, img/phoebe-waller-bridge@2x.png 2x,img/phoebe-waller-bridge@3x.png 3x",
+    "alt":"Phoebe Waller-Bridge"
+    },
+"nombre":"Phoebe Waller-Bridge",
+"descripcio": "Creadora, guionista i actriu. Killing Eve i Fleabag els seus referents. ",
+"modal": "Veure biografia" 
+
+},
+
+{
+    "id":"2",
+    "img":{
+     "src":"img/nathan-fillion.jpg@3x.png",
+     "srcset":"img/nathan-fillion.jpg, img/nathan-fillion@2x.png 2x, nathan-fillion@3x.png 3x",
+     "alt":"Nathan Fillion"   
+    },
+"nombre":"Nathan Fillion",
+"descripcio": "Actor conegut per Castle i sèries de culte com Firefly (Joss Whedon) i Community.. ",
+"modal": "Veure biografia" 
+},
+
+{
+    "id":"3",
+    "img":{
+     "src":"img/lena-dunham@3x.png",
+     "srcset":"img/lena-dunham.jpg, img/lena-dunham@2x.png 2x, img/lena-dunham@3x.png 3x",
+     "alt":"Lena Dunham"   
+    },
+"nombre":"Lena Dunham",
+"descripcio": "Creadora, guionista i actriu. Camping i Girls fan d’ella una de les veus de la seva generació. ",
+"modal": "Veure biografia"  
+},
+
+{
+    
+    "id":"4",
+    "img":{
+       "src":"img/idris-elba@3x.png",
+       "srcset":"img/idris-elba.jpg, img/idris-elba@2x.png 2x, img/idris-elba@3x.png 3x",
+       "alt":"Idris Elba" 
+    },
+"nombre":"Idris Elba",
+"descripcio": "Polifacètic actor, conegut per el seu rol principal a Luther (BBC) i a sèries de culte com The Office. ",
+"modal": "Veure biografia"  
+},
+
+{
+    "id":"5",
+    "img":{
+        "src":"img/mackenzie-davis@3x.png",
+        "srcset":"img/mackenzie-davis.jpg, img/mackenzie-davis@2x.png 2x, img/mackenzie-davis@3x.png 3x",
+        "alt":"Mackenzie Davis"
+    },
+"nombre":"Mackenzie Davis",
+"descripcio": "Actriu i també productora. Coneguda pel seu paper co-protagonista a Halt and Catch Fire i per sèries com Black Mirror.. ",
+"modal": "Veure biografia"  
+},
+
+{
+"id":"6",
+    "img":{
+        "src":"img/toby-huss@3x.png",
+        "srcset":"img/toby-huss.jpg, img/toby-huss@2x.png 2x, img/toby-huss@3x.png 3x",
+        "alt":"Toby Huss"
+    },
+"nombre":"Toby Huss",
+"descripcio": "Actor de repartiment a una bona quantitat de sèries. Conegut pels seus papers a Halt and Catch Fire, Feud i Carnivàle. ",
+"modal": "Veure biografia"  
+}
+]

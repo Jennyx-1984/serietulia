@@ -1,0 +1,440 @@
+body{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+
+.cabecera img{
+    width: 25%;
+}
+
+
+span{
+    color: #009EE0;
+}
+
+.inici{
+    display: flex;
+}
+
+.campo-interior{
+    margin:0 auto;
+    width: 80%;
+}
+
+h1{
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 1px; 
+}
+
+.text-inici{
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+form{
+    margin-top:60px;
+}
+.campo-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    justify-content: flex-start;
+}
+
+input[type=email]{
+    /*width: 285px;*/
+    width: 60%;
+
+    height: 36px; 
+    background-color: #F1F1F1 ;
+    border-bottom:1px solid black;
+    
+}
+
+input[type=email]:focus-within{
+    background-color: #E5F5FC;
+}
+
+
+
+
+.boton1{
+    width: 143px;
+    height: 42px; 
+    background-color: white;
+    color:#009EE0;
+    border:2px solid #009EE0;
+    border-radius: 8px;
+}
+
+.boton1:hover{
+    background-color: #89b4e5;
+}
+
+
+.boton1:active{
+    background-color: #336BAD;
+    color:white;
+}
+
+input[type=checkbox]{
+    width: 22px;
+    
+    height: 22px; 
+    
+    
+}
+
+.politica{
+    display: flex;
+    gap: 10px;
+    margin-top:10px;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+}
+.activitats{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.arti-acti{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 240px; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.convidats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.invitado{
+    display: flex;
+    flex-direction: column;
+    width: 545px;
+    height: 535px; 
+}
+
+.boton2{
+    width: 119px;
+    height: 46px;
+    background-color: #009EE0;
+    color:white;
+    border-radius: 8px;
+}
+
+.boton2:hover{
+    background-color: #78a9e1;
+}
+
+
+.boton2:active{
+    background-color: #336BAD;
+}
+
+.centrat{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filtros{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.listado-series{
+display: flex;
+flex-wrap: wrap;
+gap:30px;
+justify-content: center;
+}
+
+.serie{
+    width:20%;
+    
+}
+
+.series{
+    margin-bottom: 50px;
+}
+
+
+.espais{
+    margin-bottom: 60px;
+    gap:50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-formulario2{
+    width: 50%;
+    align-items: center;
+}
+
+.politica2{
+    display: flex;
+    gap: 10px;
+    margin-top:10px;
+}
+
+.boton3{
+    width: 119px;
+    height: 46px;
+    background-color: #009EE0;
+    color:white;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+
+.boton3:hover{
+    background-color: #78a9e1;
+}
+
+
+.boton3:active{
+    background-color: #336BAD;
+}
+
+.dates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.espaisidates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.titol{
+    font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: 48px;
+margin-bottom: 30px;
+}
+
+.subtitol{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 10px; 
+margin-top:10px;
+}
+
+
+
+.primera{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/*.segunda{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap:10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tercera{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap:50px;
+    width: 100%;
+}*/
+
+
+.segunda{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap:2px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+
+.tercera{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap:10px;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linea{
+    display:block;
+    width:90%;
+    border-top: 2px solid black;
+    margin-bottom: 10px;
+ }
+
+
+
+ /* invitados */
+ .invitados{
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+ }
+
+ .invitado{
+    border:1px solid #009EE0;
+    width:350px;
+    height:444px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    position:relative;
+    gap:20px;
+ }
+
+.modal{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+cursor: pointer;
+}
+
+
+.invitado:hover{
+    background-color: #a8e6cf;
+}
+
+
+
+a{
+    cursor: pointer;
+}
+
+.petit{
+    width:600px;
+    text-align: center;
+}
+
+
+ /*css de la galeria */
+
+ .ocultar{
+    display:none;
+ }
+
+
+ /*modal*/
+dialog:not([open]){
+    display:none;
+}
+
+
+ .paneles{
+    position: relative;
+    transform: translateY(50vh);
+    width: 100vw;
+    z-index: 20;
+    height: 100vh;
+    border: 1px solid black;
+ }
+
+ .img-panel{
+    width: 300px;
+    height: 400px;
+    
+    float: left;
+ }
+
+ .nombreInvi{
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    position:absolute;
+    top:0;
+    left: 400px;
+ }
+
+ .texto-panel{
+    display: flex;
+    width: 50vw;
+    /*flex-direction: column;*/
+    gap:20px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    border:1px solid green;
+    position:absolute;
+    top:100px;
+    left:0px;
+    margin-right: 40px;
+ }
+
+
+ .pelis-panel{
+    width: 25%;
+ }
+
+ .panel-series{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+ }
+
+
+ .cancel{
+    position: absolute;
+    top:0;
+    right: 0;
+ }
+ .desaparece{
+    display: none;
+ }
