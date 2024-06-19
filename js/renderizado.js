@@ -13,7 +13,6 @@ export async function generarTarjetas(){
         let sourceInv = document.createElement("source");
         let imgInv = document.createElement("img");
         let enlaceModal= document.createElement("button");
-        let dialog=document.createElement("dialog");
 
 
 
@@ -35,7 +34,6 @@ export async function generarTarjetas(){
         //invencion
         card.classList.add("invitado");
         enlaceModal.classList.add("modal");
-        let dialogo=dialog.setAttribute("class","paneles");
         //let modal=document.createElement("dialog");
         //enlaceModal.appendChild(modal);
         //let id=document.createAttribute("id");
@@ -45,10 +43,21 @@ export async function generarTarjetas(){
 
 
         
-        //dialog();
 
 
-         
+
+       let updateButton = document.getElementById("updateDetails");
+    let cancelButton = document.getElementById("cancel");
+
+
+        updateButton.addEventListener("click", function () {
+            paneles.showModal();
+          });
+      
+          cancelButton.addEventListener("click", function () {
+            paneles.close();
+          });
+
 
 
         
@@ -67,28 +76,8 @@ export async function generarTarjetas(){
         card.appendChild(nombreInv);
         card.appendChild(descripcionInv);
         card.appendChild(enlaceModal);
-        card.appendChild(dialog);
         convidatsContenedor.appendChild(card);
 
     });
 }
 
-
-
-
-
-/*function dialog(){
-    let updateButton = document.getElementById("updateDetails");
-    let cancelButton = document.getElementById("cancel");
-
-
-        updateButton.addEventListener("click", function () {
-            paneles.showModal();
-          });
-      
-          cancelButton.addEventListener("click", function () {
-            paneles.close();
-          });
- 
-
-} */

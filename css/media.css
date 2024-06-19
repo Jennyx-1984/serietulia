@@ -132,7 +132,6 @@ line-height: normal;
     margin: 0 auto;
     width: 190px;
     height: 42px;
-    margin-left:50px;
 }
 
 #formulario{
@@ -144,23 +143,12 @@ line-height: normal;
     flex-wrap: wrap;
 }
 
-.movil{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .segunda{
-display: grid;
-width: 100vw;
-grid-template-columns: 50% 50%;
-margin: 0 auto;
+flex-wrap: wrap;
 }
 
 .tercera{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    width: 100vw;
-    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .mapa img{

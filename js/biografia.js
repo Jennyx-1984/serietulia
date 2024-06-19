@@ -4,10 +4,8 @@
 export async function leerBiografia(){
      try{
          console.log(`ha entrado`);
-/*          let biografia = await fetch("json/modal.json").then(respuesta => respuesta.json()).then(obj =>console.log(obj));*/
-       let ruta= await fetch("json/modal.json")
-         let biografia= await ruta.json();
-        console.log(biografia);
+         let biografia = await fetch("json/modal.json").then(respuesta => respuesta.json()).then(obj =>console.log(obj));
+         //let datos= await invitados.json();
          return biografia; 
 
      }catch(error){
@@ -19,10 +17,16 @@ export async function leerBiografia(){
     
     
     
-    
+    /*console.log(`ha entrado`);
+        let biografia = await fetch("json/modal.json")
+        .then(respuesta => respuesta.json())
+        .then(obj =>console.log(obj));
+        //let datos= await invitados.json();
+        return biografia;*/
+
 }
 
-
-
+leerBiografia();
+//console.log(biografia);
 
 
